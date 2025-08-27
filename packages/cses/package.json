@@ -1,0 +1,16 @@
+{
+  "name": "@algo/cses",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/introductory/weird-algorithm.ts",
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest --run",
+    "lint": "eslint \"src/**/*.ts\"",
+    "format": "prettier -w \"src/**/*.ts\""
+  },
+  "dependencies": {
+    "@algo/utils": "workspace:*"
+  }
+}

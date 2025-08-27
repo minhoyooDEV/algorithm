@@ -1,0 +1,16 @@
+{
+  "name": "@algo/atcoder",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/basic/abc086a.ts < sample.txt",
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest --run",
+    "lint": "eslint \"src/**/*.ts\"",
+    "format": "prettier -w \"src/**/*.ts\""
+  },
+  "dependencies": {
+    "@algo/utils": "workspace:*"
+  }
+}
